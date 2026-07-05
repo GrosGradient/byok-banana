@@ -32,26 +32,26 @@ export default function TrustSection() {
           </div>
 
           {/* Mock audit panel */}
-          <div className="border border-gray-300 bg-white">
+          <div className="border border-gray-300 bg-white min-w-0">
             <div className="flex items-center justify-between px-4 py-2 bg-gray-100 border-b border-gray-300">
               <span className="text-xs font-semibold uppercase tracking-widest text-gray-600">Network Audit</span>
               <span className="text-xs font-bold text-green-700 bg-green-50 border border-green-200 px-2 py-0.5 uppercase tracking-wider">OK</span>
             </div>
             <div className="p-4 font-mono text-xs">
               <div className="flex text-gray-400 pb-2 border-b border-gray-100 mb-3 gap-4">
-                <span className="w-10">Status</span>
-                <span className="w-12">Method</span>
-                <span className="flex-1">Host</span>
+                <span className="w-10 flex-shrink-0">Status</span>
+                <span className="w-12 flex-shrink-0">Method</span>
+                <span className="flex-1 truncate">Host</span>
               </div>
               <div className="flex gap-4 items-center py-1.5 text-gray-800">
-                <span className="w-10 font-semibold text-green-700">200</span>
-                <span className="w-12 text-gray-500">POST</span>
-                <span className="flex-1 text-navy-mid font-medium">generativelanguage.googleapis.com</span>
+                <span className="w-10 flex-shrink-0 font-semibold text-green-700">200</span>
+                <span className="w-12 flex-shrink-0 text-gray-500">POST</span>
+                <span className="flex-1 text-navy-mid font-medium truncate min-w-0">generativelanguage.googleapis.com</span>
               </div>
               <div className="flex gap-4 items-center py-1.5 text-gray-400">
-                <span className="w-10">200</span>
-                <span className="w-12">GET</span>
-                <span className="flex-1">localhost/_next/static/...</span>
+                <span className="w-10 flex-shrink-0">200</span>
+                <span className="w-12 flex-shrink-0">GET</span>
+                <span className="flex-1 truncate min-w-0">localhost/_next/static/...</span>
               </div>
             </div>
             <div className="px-4 py-3 bg-gray-50 border-t border-gray-200">
