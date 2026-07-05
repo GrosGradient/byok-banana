@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --blue: #1a3a6b;
+    --blue-mid: #2552a3;
+    --blue-light: #e8edf7;
+    --red: #c0392b;
+    --red-light: #fdf2f2;
+    --gray-border: #d1d5db;
+    --gray-subtle: #f7f8fa;
+  }
+
+  html {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    color: #111827;
+  }
+
+  body {
+    background: #fff;
+    color: #111827;
+  }
+}
